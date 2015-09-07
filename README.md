@@ -9,10 +9,22 @@
 $ npm install basic-model --save
 ```
 
-## How to use
+### Usage
 
-Open sourcecode, take a look and start coding...
-https://github.com/maggialejandro/basic-model
+```js
+import Model from "basic-model";
+
+class Person extend Model {
+  constructor(attributes){
+    super(attributes);
+  }
+
+  sayMyName(){
+    console.log(`Hello, my name is ${this.get('name')}`);
+  }
+}
+
+```
 
 ## How to run locally installed gulp
 
