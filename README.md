@@ -14,7 +14,7 @@ $ npm install basic-model --save
 ```js
 import Model from "basic-model";
 
-class Person extend Model {
+class Person extends Model {
   constructor(attributes){
     super(attributes);
   }
