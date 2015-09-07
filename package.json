@@ -1,0 +1,37 @@
+{
+  "name": "basic-model",
+  "version": "0.0.1",
+  "author": "maggialejandro",
+  "main": "model.js",
+  "description": "Basic model written using Babel",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maggialejandro/basic-model.git"
+  },
+  "keywords": [
+    "module",
+    "model",
+    "es6",
+    "es5",
+    "babel"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-mocha": "^2.0.1",
+    "mocha": "^2.2.4"
+  },
+  "engine": "node >= 0.10.x",
+  "homepage": "https://github.com/maggialejandro/basic-model",
+  "bugs": {
+    "url": "https://github.com/maggialejandro/basic-model/issues"
+  },
+  "private": false,
+  "license": "MIT"
+}
