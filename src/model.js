@@ -9,9 +9,7 @@ export default class Model {
 
   set(attributes) {
     for(let key in attributes){
-      if(this.attributes.hasOwnProperty(key)){
-        this.attributes[key]=attributes[key];
-      }
+      this.attributes[key]=attributes[key];
     }
 
     return attributes;

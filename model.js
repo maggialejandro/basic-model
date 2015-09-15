@@ -26,9 +26,7 @@ var Model = (function () {
     key: "set",
     value: function set(attributes) {
       for (var key in attributes) {
-        if (this.attributes.hasOwnProperty(key)) {
-          this.attributes[key] = attributes[key];
-        }
+        this.attributes[key] = attributes[key];
       }
 
       return attributes;
