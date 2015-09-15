@@ -1,6 +1,6 @@
 {
   "name": "basic-model",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "maggialejandro",
   "main": "model.js",
   "description": "Basic model written using Babel",
